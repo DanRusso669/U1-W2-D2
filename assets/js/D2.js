@@ -134,8 +134,8 @@ if (num10 % 2 === 0) {
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
-let val = 7;
-if (val < 10) {
+let val = 10;
+if (val < 10 && val > 5) {
   console.log("Meno di 10");
 } else if (val < 5) {
   console.log("Meno di 5");
